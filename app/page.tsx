@@ -65,7 +65,7 @@ export default function Home() {
               Thank-you to our Sponsors!
             </h1>
             <p className="text-left pr-3 text-lg">
-              Their continued support is key to our success - we wouldn't be
+              Their continued support is key to our success - we would not be
               able to do it without them!
             </p>
             {/* Sponsors moving card */}
