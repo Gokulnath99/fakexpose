@@ -69,8 +69,9 @@ export default function Navbar() {
         </div>
       </div>
       <div className="md:hidden">
-        <p>=</p>
+        <p>==</p>
       </div>
     </motion.nav>
   );
 }
+ 
