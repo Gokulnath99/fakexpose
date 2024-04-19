@@ -17,7 +17,7 @@ const AboutUs = () => {
           top-0
           "
       >
-        
+          
       </div>
       <h1 className="text-5xl text-center mb-7 text-white">Who we are?</h1>
     </div>
