@@ -8,15 +8,8 @@ function MediaCardComponent() {
   return (
     <div className="flex flex-wrap justify-center gap-5 w-fit">
       {
-         media.map((data) => (
-            <BackgroundGradient className="rounded-[22px] w-full md:max-w-96 h-auto p-4 sm:p-5 bg-white">
-              <Image
-                src={data.logoUrl}
-                alt="jordans"
-                height="50"
-                width="50"
-                className="object-contain"
-              />
+         media.map((data, idx) => (
+            <BackgroundGradient className="rounded-[22px] w-full md:max-w-96 h-auto p-4 sm:p-5 bg-white" key={idx}>
               <Image
                 src={data.imageUrl}
                 alt="jordans"
