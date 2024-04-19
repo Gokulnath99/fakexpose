@@ -23,7 +23,7 @@ function PublicationsPage() {
       </div>
         <ul className='px-14'>
         {PublicationData.map((publication, idx) => 
-          <li className='mt-5 border border-b-2 border-t-0 border-x-0 '>
+          <li className='mt-5 border border-b-2 border-t-0 border-x-0 ' key={idx}>
             <div className='grid gap-y-2 grid-cols-12'>
               <p className='col-span-2'>{publication.date}</p>
               <Link href={publication.link} className='col-span-10'>
