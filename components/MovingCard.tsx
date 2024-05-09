@@ -13,7 +13,7 @@ export function MovingCard() {
       <InfiniteMovingCards
         items={fundraisers_sponsors}
         direction="left"
-        speed="fast"
+        speed="slow"
       />
     </div>
   );

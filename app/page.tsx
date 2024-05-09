@@ -8,7 +8,7 @@ import { MovingCard } from "@/components/MovingCard";
 import MediaCardComponent from "@/components/MediaCardComponent";
 
 
-import feature_image from "@/public/featured/feature1.png"
+import feature_image from "@/public/featured/image.png"
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -56,7 +56,7 @@ export default function Home() {
           Get Started <ArrowRight className="ml-2 h-5 w-5" />
         </Link>
       </div>
-      <div className="grid gap-5 grid-cols-1 md:grid-cols-2 w-full ">
+      <div className="grid gap-5 grid-cols-1 md:grid-cols-2 w-full mt-10">
           <motion.div whileHover={{ scale: 1.01 }} className="shadow-2xl p-4">
             <h3 className="text-[#00274C] dark:text-[#FFCB05] text-sm uppercase tracking-[10px] mb-2">
               SPONSORS

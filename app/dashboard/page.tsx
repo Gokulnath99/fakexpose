@@ -22,6 +22,13 @@ async function Dashboard() {
 
   return (
     <div>
+      <div className="bg-gradient-to-tl from-[#00274C] to-[#145089]
+          w-full
+          h-full
+          absolute
+          overflow-hidden
+          -z-20
+          top-0"></div>
       <DropZone />
       <div className="relative">
         <div
